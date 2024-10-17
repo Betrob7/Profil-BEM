@@ -1,0 +1,52 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.user {
+    width: 135px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid rgb(42, 40, 37);
+    float: left;
+    margin:2rem;
+}
+
+.user__photo {
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+    box-shadow: inset 0 2px 2px rgba(0,0,0,0.35);
+}
+
+.user__name {
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 10px 0;
+}
+
+.button {
+    width:100%;
+    background-color: rgb(107, 105, 105);
+    color:black;
+    padding:7px 12px;
+    border:none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.button:active {
+    box-shadow: inset 0 0 4px rgba(0,0,0,0.4);
+}
+
+.button--primary {
+    background-color: rgb(82, 82, 232);
+    color:white;
+}
+
+.user--darktheme {
+    background-color: rgb(48, 46, 46);
+    color:white;
+}
