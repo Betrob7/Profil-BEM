@@ -42,8 +42,9 @@
 }
 
 .button--primary {
-    background-color: rgb(82, 82, 232);
-    color:white;
+    background-color: rgb(139, 139, 143);
+    color:rgb(72, 29, 29);
+    font-weight: bold;
 }
 
 .user--darktheme {
